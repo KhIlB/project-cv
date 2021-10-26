@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /*font: normal 16px 'Roboto', sans-serif;*/
+}
+
+a {
+    color: #000000;        
+}
+
+a :visited {
+    color: darkmagenta;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.tree {
+    border-radius: 50px;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .tree {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+       
+    }
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    padding: 15px 20px;
+    background-color: darkslategray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-green {
+    background: rgb(118, 173, 161);
+}
+
+.bg-yellow {
+    background: rgb(202, 198, 155);
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: darkgray;
+}   
+
+.form-group input {
+    width: 100%;
+    font-family: inherit;
+    border: none;
+    padding: 10px 0px;
+    outline: gray;
+    background: transparent;
+    border-bottom: #ccc 1px solid;    
+}
+
+.form-group {
+   border: none; 
+  
+}
+
+.row {  
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.bt {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    color: #111;
+    padding: 15px 20px;
+    font-family: inherit;
+    background: #000000;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* .position {
+    position: relative;
+    border: 2px solid black;
+    margin-top: 40px;
+    padding: 20px;
+} */
+
+.box {
+    position: fixed;
+    bottom: 10%;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(214, 205, 214);
+    
+
+}
+
+
+
+/*
+
+#KI {
+    margin: 0px 300px;
+    font-weight: bold;
+           
+}
+*/
+

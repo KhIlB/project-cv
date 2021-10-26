@@ -1,0 +1,38 @@
+
+
+body {
+    background-color: #6b6b6b;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /*font: normal 16px 'Roboto', sans-serif;*/
+}   
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: left;
+}
+
+.box > div {
+    background: radial-gradient(rgb(255, 255, 255), rgb(198, 239, 255));
+    box-sizing: border-box;
+    margin: 5px;
+    height: 200px;
+    width: 25%;
+    float: left;
+    border: rgb(50, 205, 252) 2px solid;
+    border-radius: 20px;
+    color: rgb(53, 53, 52);
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 80px;
+    text-align: center;
+    box-shadow: rgb(69, 94, 139) 0px 5px 5px 0px;
+            
+}
